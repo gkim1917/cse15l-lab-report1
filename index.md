@@ -22,10 +22,12 @@
 
 
 ## Step 3. Trying Some Commands
-> ### 1. 
-> ### 2.
-> ### 3.
-## ![](scp.png)
+> ### 1. 'cd' changes the directory and 'cd ~' changes to the parent directory.
+> ### 2. 'ls -lat' returns more detailed information about the list of contents in the current directory such as the username, time and the date of creation. 'ls -a' only gives the name of the contents in the current directory.
+## ![](command1.png)
+> ### 3. 'ls' shows the list of files and directories in the current directoy. 'cp' copies the following file. 'cat' shows the content of the currnet file.
+## ![](command2.png)
+> ### 4. Enter 'exit' in order to log out from your server.
 
 
 
@@ -41,8 +43,13 @@ class WhereAmI {
   }
 }
 ```
-> ### 2.
-> ### 3.
+> ### 2. Compile and run the file using 'javac' and 'java' command.
+> ### 3. Open the terminal of the directory of this file and use 'scp' command to copy this file into the server.
+```
+scp WhereAmI.java cs15lfa22zz@ieng6.ucsd.edu:~/
+```
+> ### 4. Login to the server using 'ssh' command and check if the file is copied in the server using 'ls' command.
+> ### 5. Compile and run the file using 'javac' and 'java' command again.
 ## ![](scp.png)
 
 
@@ -61,6 +68,13 @@ class WhereAmI {
 
 
 ## Step 6. Optimizing Remote Running
-> ### 1. 
-> ### 2.
-> ### 3.
+> ### 1. The command can be used remotely on the same line of the screen by entering ssh, the name of the server, and the command line like the below example.
+```
+ssh cs15lfa22ne@ieng6.ucsd.edu "ls"
+```
+## ![](easy1.png)
+> ### 2. More than one commands can be used in one line separated by semicolon.
+```
+cp WhereAmI.java; ls lab1; java WhereAmI;
+```
+## ![](easy2.png)
