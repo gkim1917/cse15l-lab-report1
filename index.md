@@ -1,14 +1,14 @@
 # Tutorial of Remote Access and File System
-### 093022
+### 09/30/22
 ### Lab Report 1
-### Gunju Kim
+### Gunju Kim\
 
 
 ## Step 1. Download the vscode
 > ###  1. First go to this [link](https://code.visualstudio.com/) to download vscode.
 ## ![](vscode1.png)
 > ###  2. After you download the vscode, the below screen will be shown.
-## ![](vscode.png)
+## ![](vscode.png)\
 
 
 
@@ -17,7 +17,7 @@
 > ### 2. On the screen, type " ssh cs15lfa22ne@ieng6.ucsd.edu ".
 > ### 3. Enter your password for your course account.
 > ### 4. If this is your first login, reply yes to the question, "Are you sure you want to continue connecting?"
-## ![](login.png)
+## ![](login.png)\
 
 
 
@@ -25,9 +25,11 @@
 > ### 1. 'cd' changes the directory and 'cd ~' changes to the parent directory.
 > ### 2. 'ls -lat' returns more detailed information about the list of contents in the current directory such as the username, time and the date of creation. 'ls -a' only gives the name of the contents in the current directory.
 ## ![](command1.png)
-> ### 3. 'ls' shows the list of files and directories in the current directoy. 'cp' copies the following file. 'cat' shows the content of the currnet file.
+> ### 3. 'ls' shows the list of files and directories in the current directoy. 
+> ### 4. 'cp' copies the following file. 
+> ### 5. 'cat' shows the content of the currnet file.
 ## ![](command2.png)
-> ### 4. Enter 'exit' in order to log out from your server.
+> ### 6. Enter 'exit' in order to log out from your server.\
 
 
 
@@ -50,8 +52,7 @@ scp WhereAmI.java cs15lfa22zz@ieng6.ucsd.edu:~/
 ```
 > ### 4. Login to the server using 'ssh' command and check if the file is copied in the server using 'ls' command.
 > ### 5. Compile and run the file using 'javac' and 'java' command again.
-## ![](scp.png)
-
+## ![](scp.png)\
 
 
 ## Step 5. Setting an SSH Key
@@ -64,7 +65,7 @@ scp WhereAmI.java cs15lfa22zz@ieng6.ucsd.edu:~/
 > ### 6. Now, copy your public key into the server by entering 'scp /Users/gunjukim/.ssh/id_rsa.pub cs15lfa22ne@ieng6.ucsd.edu:~/.ssh/authorized_keys'.
 ## ![](pass2.png)
 > ### 7. If you login again using 'ssh', you no longer have to enter your password! (This actually saved me 30 seconds in changing and saving the file.)
-## ![](passphrase.png)
+## ![](passphrase.png)\
 
 
 ## Step 6. Optimizing Remote Running
