@@ -1,7 +1,7 @@
 # Tutorial of Remote Access and File System
 ### 09/30/22
 ### Lab Report 1
-### Gunju Kim\
+### Gunju Kim
 
 
 
@@ -9,7 +9,7 @@
 > ###  1. First go to this [link](https://code.visualstudio.com/) to download vscode.
 ## ![](vscode1.png)
 > ###  2. After you download the vscode, the below screen will be shown.
-## ![](vscode.png)\
+## ![](vscode.png)
 
 
 
@@ -19,7 +19,7 @@
 > ### 2. On the screen, type " ssh cs15lfa22ne@ieng6.ucsd.edu ".
 > ### 3. Enter your password for your course account.
 > ### 4. If this is your first login, reply yes to the question, "Are you sure you want to continue connecting?"
-## ![](login.png)\
+## ![](login.png)
 
 
 
@@ -32,7 +32,7 @@
 > ### 4. 'cp' copies the following file. 
 > ### 5. 'cat' shows the content of the currnet file.
 ## ![](command2.png)
-> ### 6. Enter 'exit' in order to log out from your server.\
+> ### 6. Enter 'exit' in order to log out from your server.
 
 
 
@@ -56,7 +56,7 @@ scp WhereAmI.java cs15lfa22zz@ieng6.ucsd.edu:~/
 ```
 > ### 4. Login to the server using 'ssh' command and check if the file is copied in the server using 'ls' command.
 > ### 5. Compile and run the file using 'javac' and 'java' command again.
-## ![](scp.png)\
+## ![](scp.png)
 
 
 
@@ -70,7 +70,7 @@ scp WhereAmI.java cs15lfa22zz@ieng6.ucsd.edu:~/
 > ### 6. Now, copy your public key into the server by entering 'scp /Users/gunjukim/.ssh/id_rsa.pub cs15lfa22ne@ieng6.ucsd.edu:~/.ssh/authorized_keys'.
 ## ![](pass2.png)
 > ### 7. If you login again using 'ssh', you no longer have to enter your password! (This actually saved me 30 seconds in changing and saving the file.)
-## ![](passphrase.png)\
+## ![](passphrase.png)
 
 
 
