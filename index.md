@@ -4,11 +4,13 @@
 ### Gunju Kim\
 
 
+
 ## Step 1. Download the vscode
 > ###  1. First go to this [link](https://code.visualstudio.com/) to download vscode.
 ## ![](vscode1.png)
 > ###  2. After you download the vscode, the below screen will be shown.
 ## ![](vscode.png)\
+
 
 
 
@@ -21,6 +23,7 @@
 
 
 
+
 ## Step 3. Trying Some Commands
 > ### 1. 'cd' changes the directory and 'cd ~' changes to the parent directory.
 > ### 2. 'ls -lat' returns more detailed information about the list of contents in the current directory such as the username, time and the date of creation. 'ls -a' only gives the name of the contents in the current directory.
@@ -30,6 +33,7 @@
 > ### 5. 'cat' shows the content of the currnet file.
 ## ![](command2.png)
 > ### 6. Enter 'exit' in order to log out from your server.\
+
 
 
 
@@ -55,6 +59,7 @@ scp WhereAmI.java cs15lfa22zz@ieng6.ucsd.edu:~/
 ## ![](scp.png)\
 
 
+
 ## Step 5. Setting an SSH Key
 > ### 1. On your desktop's terminal, enter "ssh-keygen". This will generate your public and private key.
 > ### 2. Click 'Enter' if "Enter file in which to save the key" pops up.
@@ -66,6 +71,7 @@ scp WhereAmI.java cs15lfa22zz@ieng6.ucsd.edu:~/
 ## ![](pass2.png)
 > ### 7. If you login again using 'ssh', you no longer have to enter your password! (This actually saved me 30 seconds in changing and saving the file.)
 ## ![](passphrase.png)\
+
 
 
 ## Step 6. Optimizing Remote Running
